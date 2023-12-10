@@ -7,7 +7,7 @@ The repository contains some of the code used in the project related to obtainin
 <b>List of files</b>
 
 <ul>
-  <li><a href="">transmission_error.m</a> - calculation of transmission error</li>
+  <li><a href="https://github.com/mbatsch/gear_vibrations/blob/main/transmission_error.m">transmission_error.m</a> - calculation of transmission error</li>
   <li><a href="">vibrations.py</a> - comparative signal analysis</li>
 </ul>
 
