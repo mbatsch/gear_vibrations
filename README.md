@@ -8,6 +8,7 @@ The repository contains some of the code used in the project related to obtainin
 
 <ul>
   <li><a href="https://github.com/mbatsch/gear_vibrations/blob/main/transmission_error.m">transmission_error.m</a> - calculation of transmission error</li>
+  <li><a href="https://github.com/mbatsch/gear_vibrations/blob/main/TE_envelope.m">TE_envelope.m</a> - calculating the envelope of transmission error signal</li>
   <li><a href="">vibrations.py</a> - comparative signal analysis</li>
 </ul>
 
