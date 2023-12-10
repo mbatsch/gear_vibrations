@@ -51,7 +51,7 @@ f2=n2/60
 fz=f1*z1
 fk=fz/np.lcm(z1, z2)
 
-# --- Load vibration measurement data
+# --- Vibration measurement data preprocessing
 
 dataframe = pd.read_csv('DRG.csv', header=None)
 DRG = dataframe.values
