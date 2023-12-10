@@ -1,4 +1,4 @@
-# Gear fault detection by unsupervised deep learning of autoencoder
+# Vibration excitation in gearboxes due to surface deviations
 
 <b>Brief description</b>
 
