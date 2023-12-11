@@ -69,7 +69,7 @@ am_peaks, _ = scipy.signal.find_peaks(Pa, height=0.1)
 
 # --- Transmission error preprocessing
 
-TEdataframe = pd.read_csv('TE_min2.csv', header=None)
+TEdataframe = pd.read_csv('TE_min.csv', header=None)
 TE = TEdataframe.values
 
 t = TE[0, :]
