@@ -73,7 +73,7 @@ TEdataframe = pd.read_csv('TE_min.csv', header=None)
 TE = TEdataframe.values
 
 t = TE[0, :]
-x = TE[1, :] * 10e6 # na mikrometry
+x = TE[1, :] * 10e6 # in micrometers
 v = TE[2, :]
 a = TE[3, :]
 dt = np.diff(t)
@@ -97,7 +97,7 @@ t_int = np.linspace(0,1, 25000)
 x_int = np.interp(t_int, t, x)
 a_int = np.interp(t_int, t, a)
 
-# --- Measurement data visualisation
+# --- Measurement data visualization
 
 fig, axs = plt.subplots(ncols=1, nrows=2)
 axs[0].plot(t_meas[t_meas <= 0.025], a_meas[t_meas <= 0.025])
